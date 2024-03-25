@@ -11,6 +11,6 @@ export class AppComponent {
   }
 
   onSubmit(form: HTMLFormElement){
-    console.log("inside submit")
+    console.log(form)
   }
 }
